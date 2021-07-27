@@ -1,0 +1,27 @@
+body{
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+footer {
+    position: fixed;
+     bottom: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+  
+  }
+
+  @media only screen and (max-width: 768px) {
+
+    #newbutton{
+        margin-top: -40px;
+    }
+
+    footer {
+        display: none;
+      
+      }
+
+  }
